@@ -137,8 +137,6 @@ a{
 .card__image-post{
     border-radius: var(--large-radio-border);
     box-shadow: var(--card-shadow);
-    width: 836px;
-    height: 384px;
 }
 
 .card-big .card__label{
