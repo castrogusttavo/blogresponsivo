@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <title>Blog Responsivo</title>
+</head>
+
+<body>
+
+<!-- HEADER DO BLOG -->
+<header class="header container">
+  <nav class="navbar">
+    <h1><a href="#" class="navbar__logo">Coisa de Dev</a></h1>
+
+    <ul class="navbar__menu">
+      <li>
+        <a href="#last-post" class="navbar-link">Início</a>
+      </li>
+
+      <li>
+        <a href="#all-post" class="navbar-link">Posts</a>
+      </li>
+      
+      <li>
+        <a href="#" class="navbar-link">Sobre nos</a>
+      </li>
+      
+      <li>
+        <a href="#footer" class="navbar-link">Contato</a>
+      </li>
+
+      <li class="navbar-link"><img src="images/icons/search-white.svg" alt="Buscar"></li>
+    </ul>
+
+    <img class="navbar__burger" src="images/icons/burger.svg" alt="Menu">
+  </nav>
+</header>
+
+<!-- CORPO DO BLOG -->
+<main class="main content">
+  <div class="container">
+
+  <!-- === POST PRINCIPAL === -->
+  <section class="last__post" id="last-post">
+    <article class="card card-big">
+      <figure>
+        <a href="post_figma.html">
+          <img src="images/Figma-Image.jpg" alt="Viagem" class="card__image">
+        <figcaption class="card__label">
+          <span class="card__category lp__category">DESIGN</span>
+          <h3 class="lp__title">FIGMA X ADOBE XD</h3>
+          <span class="card__author lp__author"><strong id="lp-st">Por</strong> Gusttavo Castro</span>
+        </figcaption>
+      </a>
+      </figure>
+    </article>
+  </section>
+
+  <section class="all__post" id="all-post">
+
+    <header class="section__header section-header-link">
+      <h2>Posts Recentes</h2>
+      <a href="#" class="post__link">Ver todos</a>
+    </header>
+
+    <main class="all__post-grid">
+
+    <!-- === CARD 1 === -->
+      <article class="card card-medium">
+        <a href="post_ia.html">
+        <figure>
+          <img src="images/chat gpt.webp" alt="Viagem" class="card__image">
+        </figure>
+          <figcaption class="card__label">
+            <span class="card__category">TECH</span>
+            <h3>CHAT GPT</h3>
+            <span class="card__author"><strong>Por</strong> Gusttavo Castro</span>
+            <p class="card__text">Revolução da I.A's, e porque temos que tomar cuidado.</p>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+          </figcaption>
+        </a>
+      </article>
+
+    <!-- === CARD 2 === -->
+      <article class="card card-medium">
+        <a href="post_banco.html">
+        <figure>
+          <img src="images/banco digital.png" alt="Viagem" class="card__image">
+        </figure>
+          <figcaption class="card__label">
+            <span class="card__category">ECONOMIA</span>
+            <h3>BANCOS DIGITAIS</h3>
+            <span class="card__author"><strong>Por</strong> Gusttavo Castro</span>
+            <p class="card__text">Como eles ganham dinheiro, e não dão calote em seus usuários?</p>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+          </figcaption>
+        </a>
+      </article>
+
+    <!-- === CARD 3 === -->
+      <article class="card card-medium">
+        <a href="post_conect.html">
+        <figure>
+          <img src="images/conecta.webp" alt="Viagem" class="card__image">
+        </figure>
+          <figcaption class="card__label">
+            <span class="card__category">EVENTO</span>
+            <h3>RIO DE JANEIRO TECH</h3>
+            <span class="card__author"><strong>Por</strong> Gusttavo Castro</span>
+            <p class="card__text">Pionerismo da cidade com nível turistico do Brasil, agora terá um evento TECH</p>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+          </figcaption>
+        </a>
+      </article>
+
+    <!-- === CARD 4 === -->
+      <article class="card card-medium">
+        <a href="post_jobs.html">
+        <figure>
+          <img src="images/steve-jobs.webp" alt="Viagem" class="card__image">
+        </figure>
+          <figcaption class="card__label">
+            <span class="card__category">CELEBRIDAES</span>
+            <h3>STEVE JOBS</h3>
+            <span class="card__author"><strong>Por</strong> Gusttavo Castro</span>
+            <p class="card__text">Criador da Apple, inspirador no âmbito de experiência do usuário, quem era Steve Jobs?</p>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+          </figcaption>
+        </a>
+      </article>
+
+    </main>
+  </section>
+
+<!-- LATERAL 1 -->
+  <aside class="popular__post">
+    <header class="section__header">
+      <h2>Post Populares</h2>
+    </header>
+    <main class="popular__posts-box">
+
+      <!-- === TOP 1 === -->
+      <article class="card card-small">
+        <figure>
+          <a href="post_jobs.html">
+          <img src="images/steve-jobs.webp" alt="Viagem" class="card__image">
+          </a>
+        </figure>
+          <figcaption class="card__label">
+            <a href="post_figma.html">
+            <h3>STEVE JOBS</h3>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+          </figcaption>
+        </a>
+      </article>
+
+      <!-- === TOP 2 === -->
+      <article class="card card-small">
+        <figure>
+          <a href="post_conect.html">
+          <img src="images/conecta.webp" alt="Viagem" class="card__image">
+          </a>
+        </figure>
+          <figcaption class="card__label">
+            <a href="post_figma.html">
+            <h3>CONECTA</h3>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+            </a>
+          </figcaption>
+      </article>
+
+      <!-- === TOP 3 === -->
+      <article class="card card-small">
+        <figure>
+          <a href="post_figma.html">
+            <img src="images/Figma-Image.jpg" alt="Viagem" class="card__image">
+          </a>
+        </figure>
+          <figcaption class="card__label">
+            <a href="post_figma.html">
+              <h3>FIGMA</h3>
+              <time datetime="2023-04-17">17 de abril de 2023</time>
+            </a>
+          </figcaption>
+      </article>
+
+      <!-- === TOP 4 === -->
+      <article class="card card-small">
+        <figure>
+          <a href="post_banco.html">
+          <img src="images/banco digital.png" alt="Viagem" class="card__image">
+          </a>
+        </figure>
+          <figcaption class="card__label">
+            <a href="post_figma.html">
+            <h3>BANCO DIGITAL</h3>
+            <time datetime="2023-04-17">17 de abril de 2023</time>
+            </a>
+          </figcaption>
+      </article>
+    </main>
+  </aside>
+
+<!-- LATERAL 2 -->
+  <aside class="categories__post"> 
+    <header class="section__header">
+      <h2>Categorias</h2>
+    </header>
+    <main class="categories__posts-box">
+      <ol class="categories__list">
+        <li class="list_item">
+          <label>PWI</label>
+          <span>(1)</span>
+        </li>
+        <li class="list_item">
+          <label>DESIGN</label>
+          <span>(1)</span>
+        </li>
+        <li class="list_item">
+          <label>ECONOMIA</label>
+          <span>(1)</span>
+        </li>
+        <li class="list_item">
+          <label>EVENTO</label>
+          <span>(1)</span>
+        </li>
+        <li class="list_item">
+          <label>CELEBRIDAES</label>
+          <span>(1)</span>
+        </li>
+        <li class="list_item">
+          <label>TECH</label>
+          <span>(1)</span>
+        </li>
+      </ol>
+    </main>
+  </aside>
+</div>
+</main>
+
+<footer class="footer container" id="footer">
+  <span>©️Copyright Gusttavo Castro</span>
+</footer>
+
+</body>
+</html>
